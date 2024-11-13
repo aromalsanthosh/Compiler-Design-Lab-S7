@@ -60,7 +60,7 @@ void check()
         {
             stk[z] = 'E';
             stk[z + 1] = '\0';
-            stk[z + 1] = '\0';
+            stk[z + 2] = '\0';
             printf("\n$%s\t%s$\t%s", stk, a, ac);
             i = i - 2;
         }
@@ -69,7 +69,7 @@ void check()
         {
             stk[z] = 'E';
             stk[z + 1] = '\0';
-            stk[z + 1] = '\0';
+            stk[z + 2] = '\0';
             printf("\n$%s\t%s$\t%s", stk, a, ac);
             i = i - 2;
         }
